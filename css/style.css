@@ -79,7 +79,7 @@ main {
 
 .gif-item {
     background: white;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
@@ -91,7 +91,8 @@ main {
 
 .gif-item img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
     display: block;
 }
 
